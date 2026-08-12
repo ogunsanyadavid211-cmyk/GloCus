@@ -26,7 +26,7 @@
 }
 
 .logo {
-    color: orange;
+    color: #ff7200;
     font-size: 35px;
     font-family: Arial;
     padding-left: 20px;
@@ -67,7 +67,7 @@ ul li a {
 }
 
 ul li a:hover {
-    color: rgb(82, 243, 82);
+    color: #ff7200;
 
 }
 
@@ -82,7 +82,7 @@ ul li a:hover {
     width: 200px;
     height: 40px;
     background: transparent;
-    border: 1px solid orange;
+    border: 1px solid #ff7200;
     margin-top: 13px;
     color: white;
     border-right: none;
@@ -96,8 +96,8 @@ ul li a:hover {
 .btn {
     width: 100px;
     height: 40px;
-    background: orange;
-    border: 2px solid orange;
+    background: #ff7200;
+    border: 2px solid #ff7200;
     margin-top: 13px;
     color: #fff;
     font-size: 15px;
@@ -141,7 +141,7 @@ ul li a:hover {
 .content .cn {
     width: 160px;
     height: 40px;
-    background: orange;
+    background: #ff7200;
     border: none;
     margin-bottom: 10px;
     margin-left: 20px;
@@ -162,4 +162,128 @@ ul li a:hover {
 .cn:hover {
     background-color: rgb(251, 252, 251);
 
+}
+
+.content span {
+    color: #ff7200;
+    font-size: 20px;
+}
+
+.form {
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+
+    animation: mySlide;
+    animation-duration: 4s;
+}
+
+.form h2 {
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #ff7200;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+
+}
+
+.form input {
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+
+}
+
+.form input:focus {
+    outline: none;
+}
+
+::placeholder {
+    color: #fff;
+    font-family: Arial;
+}
+
+.btnn {
+    width: 240px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+
+}
+
+.btnn a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.btnn:hover{
+    background: #fff;
+    color: #ff7200;
+}
+
+.form .link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+
+}
+
+.form .link a {
+    text-decoration: none;
+    color: #ff7200;
+
+}
+
+.liw {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+
+}
+
+.icons a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.icons ion-icon{
+    color: #fff;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+
+.icons ion-icon:hover {
+    color: #ff7200;
+}
+
+@keyframes mySlide {
+    from{margin-left: 100%;}
+    to{margin-left: 0%;}
 }
